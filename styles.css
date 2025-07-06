@@ -122,20 +122,18 @@ p {
 
 .nav-brand {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     gap: 5px;
 }
 
-.brand-text {
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: var(--primary-color);
+.brand-logo {
+    height: 45px;
+    width: auto;
+    transition: var(--transition);
 }
 
-.brand-subtitle {
-    font-size: 0.9rem;
-    color: var(--dark-gray);
-    font-weight: 400;
+.brand-logo:hover {
+    transform: scale(1.05);
 }
 
 .nav-menu {
