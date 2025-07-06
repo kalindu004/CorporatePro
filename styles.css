@@ -129,11 +129,6 @@ p {
 .brand-logo {
     height: 45px;
     width: auto;
-    transition: var(--transition);
-}
-
-.brand-logo:hover {
-    transform: scale(1.05);
 }
 
 .nav-menu {
